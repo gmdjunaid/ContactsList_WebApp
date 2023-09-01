@@ -1,6 +1,6 @@
 # Contacts List Web App
 
-This is a simple web application built using react for managing a list of contacts. You can add, edit, and delete contacts, and they are displayed in a user-friendly format.
+The Contacts List Web App is a user-friendly web application designed for efficient contact management. With its simple interface, users can effortlessly add and delete contacts, fostering better organization and accessibility of contact information. This project aims to enhance personal and professional communication by providing a streamlined solution for managing contacts.
 
 ## Features
 
