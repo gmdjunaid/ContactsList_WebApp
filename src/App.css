@@ -1,38 +1,142 @@
 .App {
+  padding: 40px;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  background-image: url(simple-clean-background-8g9017acqfddycrl.jpg) ; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-y:hidden;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ul {
+  list-style: none;
+  
 }
+
+li {
+  margin: 10px;
+}
+
+.header {
+  font-family: Arial, sans-serif;
+  margin-top: 0px;
+  color:#3d768a;
+}
+
+.contacts-list {
+  font-family: Arial, sans-serif;
+}
+
+.contacts-list li {
+  margin-bottom: 10px;
+  color: #408c99;
+}
+
+.contacts-list li strong {
+  margin-right: 5px;
+}
+
+
+.add-contact {
+  margin-top: 20px;
+}
+
+.add-contact input {
+  box-shadow: 0px 10px 14px -7px #276873;
+  border-radius:8px;
+  margin-right: 10px;
+  padding:13px 32px;
+}
+
+.add-contact button {
+  box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:10px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+
+.add-contact button:hover {
+  background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+
+.add-contact button:active{
+  position: relative;
+  top: 1px;
+}
+
+
+#delete {
+  box-shadow: 0px 10px 14px -7px #26050b;
+	background:linear-gradient(to bottom, #0a1849 5%, #199cb386 100%);
+	background-color:#0774a7;
+	border-radius:4px;
+	border:1px solid #4097a8fa;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:5px 12px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #6b1b36;
+  margin-left: 10px;
+}
+
+#delete:hover{
+  background:linear-gradient(to bottom, #5e051b 5%, #d12727 100%);
+	background-color:#b31940;
+}
+
+#delete:active{
+  position:relative;
+	top:1px;
+}
+
+#edit {
+  box-shadow: 0px 10px 14px -7px #26050b;
+	background:linear-gradient(to bottom, #0a1849 5%, #199cb386 100%);
+	background-color:#0774a7;
+	border-radius:4px;
+	border:1px solid #4097a8fa;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:5px 12px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #6b1b36;
+  margin-left: 10px;
+}
+
+#edit:hover{
+  background:linear-gradient(to bottom, #047232 5%, #57d694 100%);
+	background-color:#034b14;
+}
+
+#edit:active{
+  position:relative;
+	top:1px;
+}
+
